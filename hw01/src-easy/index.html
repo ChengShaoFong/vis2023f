@@ -107,9 +107,7 @@ for (var i = 1; i < a3.length; i++) {
     a3[i][2] = prefix[Math.floor(Math.random() * prefix.length)] + middle[Math.floor(Math.random() * middle.length)] + suffix;
     //a3[i][1] = '路人甲'; // 4E00-9FFF
     //a3[i][1] = String.fromCharCode(0x6771);
-    a3[i][3] = String.fromCharCode(Math.floor(Math.random() * 0x51ff + 0x4e00)) +
-               String.fromCharCode(Math.floor(Math.random() * 0x51ff + 0x4e00)) +
-               String.fromCharCode(Math.floor(Math.random() * 0x51ff + 0x4e00));
+    a3[i][3] = generateRandomGitHubAccount()
     
     
     //a3[i][2] = 'github';
