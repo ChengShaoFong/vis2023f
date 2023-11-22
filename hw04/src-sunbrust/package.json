@@ -1,0 +1,14 @@
+{
+  "name": "@shaofong-cheng-ws/hw4",
+  "main": "e4ede462ef57c55d@226.js",
+  "version": "226.0.0",
+  "homepage": "https://observablehq.com/@shaofong-cheng-ws/hw4",
+  "author": {
+    "name": "ShaoFong Cheng's Workspace",
+    "url": "https://observablehq.com/@shaofong-cheng-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
