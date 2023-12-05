@@ -1,0 +1,14 @@
+{
+  "name": "c0eeb57323c2f54b",
+  "main": "c0eeb57323c2f54b@84.js",
+  "version": "84.0.0",
+  "homepage": "https://observablehq.com/d/c0eeb57323c2f54b",
+  "author": {
+    "name": "ShaoFong Cheng's Workspace",
+    "url": "https://observablehq.com/@shaofong-cheng-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
