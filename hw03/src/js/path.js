@@ -47,8 +47,8 @@ function calculatePosition(x, y) {
   const minY = -11.64;
   const maxY = 15; //15.91;
 
-  const iconX = ((x - minX) / (maxX - minX)) * 70;
-  const iconY = ((y - minY) / (maxY - minY)) * 70;
+  const iconX = ((x - minX) / (maxX - minX)) * 100;
+  const iconY = ((y - minY) / (maxY - minY)) * 100;
 
   return { x: iconX, y: iconY };
 }
