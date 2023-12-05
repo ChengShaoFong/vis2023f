@@ -43,8 +43,8 @@ let currentFloor = '1F'; // 新增 currentFloor 變數
 
 function calculatePosition(x, y) {
   const minX = 10; //10.45;
-  const maxX = 90; //60.47;
-  const minY = 10; //-11.64;
+  const maxX = 60.47;
+  const minY = -15.64;
   const maxY = 35; //15.91;
 
   const iconX = ((x - minX) / (maxX - minX)) * 70;
