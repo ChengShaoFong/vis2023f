@@ -29,7 +29,7 @@ taiwanMap(500, 600, -0.0, -0.5, 8500)
 
 function _taiwanMap(d3,topojson,tw,DOM,bgColor,strokeColor,strokeOpacity,minidata){return(
 (width, height, offsetX, offsetY, scale) => {
-  offsetX = offsetX + 0.75;
+  offsetX = offsetX + 0.66;
 
   const bboxCenter = (bbox) => [
     (bbox[0] + bbox[2]) / 2 + offsetX,
@@ -60,13 +60,13 @@ function _taiwanMap(d3,topojson,tw,DOM,bgColor,strokeColor,strokeOpacity,minidat
     .attr("fill", "none")
     .attr("stroke", strokeColor)
     .attr("stroke-linejoin", "round")
-    .attr("stroke-width", 0.5)
+    .attr("stroke-width", 2)
     .attr("opacity", strokeOpacity)
     .attr("d", path);
 
-  const maxValue = 42;
+  const maxValue = 15;
   const thresholds = d3.range(0, maxValue + 1);
-  const colorRange = thresholds.map(value => d3.interpolateReds(value / maxValue));
+  const colorRange = thresholds.map(value => d3.interpolateRdBu(value / maxValue));
   const thresholdScale = d3.scaleThreshold().domain(thresholds).range(colorRange);
   
   details
