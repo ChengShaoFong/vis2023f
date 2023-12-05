@@ -42,10 +42,10 @@ let currentIndex = 0;
 let currentFloor = '1F'; // 新增 currentFloor 變數
 
 function calculatePosition(x, y) {
-  const minX = 10.45;
-  const maxX = 60.47;
-  const minY = -11.64;
-  const maxY = 15.91;
+  const minX = 6; //10.45;
+  const maxX = 35; //60.47;
+  const minY = 5; //-11.64;
+  const maxY = 10; //15.91;
 
   const iconX = ((x - minX) / (maxX - minX)) * 100;
   const iconY = ((y - minY) / (maxY - minY)) * 100;
